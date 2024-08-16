@@ -1,0 +1,36 @@
+
+<h1>Formulario de inscrição para o evento</h1>
+<form action="https://formspree.io/f/mldrlrpd" method="post">
+     <label>
+        Nome Completo:
+        <input required type="text" name="Nome Completo">
+      </label><br><br>
+     <label>
+        Email:
+        <input required placeholder="Exemple@email.com" type="email" name="email">
+      </label><br><br>
+      <label>
+       Telefone com DDD
+       <input required placeholder="(21)3456-7555" type="tel">
+      </label><br><br>
+      <label>
+        Endereço 
+        <input required placeholder="rua, bairro" type="text">
+         <select id="Cidade" name="Cidade">
+            <option value="Niteroi">Niteroi</option>
+            <option value="São Gonçalo">São Gonçalo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+        </select><br><br>
+      </label>
+      <label for="dtnasc">Data Nasc</label>
+      <input required type='date' id='dtnasc' name='dtnasc'><br><br>
+      <label for="Categoria">Seguimento</label>
+	<select id="Categoria" name="Categoria">
+		<option value="Basquete 3X3">Basquete 3X3</option>
+		<option value="Batalha de rima">Batalha de rima</option>
+		<option value="Show talentos">Show talentos</option>
+	</select><br><br>
+      
+
+      <button type="submit">Enviar</button>
+</form>
